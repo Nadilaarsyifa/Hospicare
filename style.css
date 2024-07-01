@@ -1,0 +1,44 @@
+nav.navbar {
+    font-family: 'Times New Roman', Times, serif;
+
+    background-color: rgb(23, 150, 19);
+}
+
+body {
+    background-color: rgb(252, 252, 252);
+}
+
+.nav-item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.offcanvas-body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --custom-background-color: rgb(5, 121, 15) !important;
+}
+
+.nav-link.active {
+    background-color: var(--custom-background-color) !important;
+}
+
+
+.dropdown-item:active {
+    background-color: var(--custom-background-color) !important;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collapse.show+ul .bi-caret-down-fill {
+    transform: rotate(180deg);
+}
+
+.bi-caret-down-fill {
+    transition: transform 0.3s;
+}
